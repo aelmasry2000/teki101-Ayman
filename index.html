@@ -16,7 +16,13 @@ img {margin-bottom: -8px;}
 </head>
 <body class="w3-content w3-black" style="max-width:1500px;">
 
-  
+ <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "58aa2842-4377-4cef-9679-252441242bfa",
+        apiHost: "https://e4a6c3da-05a0-4894-8301-28732cbe448a-00-3qo19ihkuwph3.riker.replit.dev",
+    })
+</script> 
 <!-- Header with Slideshow -->
 <header class="w3-display-container w3-center">
   <button class="w3-button w3-block w3-black w3-hide-large w3-hide-medium" onclick="document.getElementById('download').style.display='block'">Shop<i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button>
